@@ -208,7 +208,7 @@ function love.draw()
     gStateMachine:render()
     
     -- display FPS for debugging; simply comment out to remove
-    displayFPS()
+    -- displayFPS()
     
     push:apply('end')
 end
@@ -303,3 +303,4 @@ function renderScore(score)
     love.graphics.print('Score:', VIRTUAL_WIDTH - 60, 5)
     love.graphics.printf(tostring(score), VIRTUAL_WIDTH - 50, 5, 40, 'right')
 end
+
