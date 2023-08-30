@@ -48,5 +48,5 @@ require 'src/states/ServeState'
 require 'src/states/StartState'
 require 'src/states/VictoryState'
 
--- MARCIN: powerup
+-- MARCIN: powerup Class
 require 'src/Powerup'
